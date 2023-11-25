@@ -1,0 +1,295 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html,body{
+
+    font-size: 15px;
+    overflow-x: hidden;
+    
+}
+
+
+.big-wrapper{
+
+    background-image: url("slider-bg.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#my-navigation{
+
+    background: none;
+    border: 0;
+    position: relative;
+    top: 40px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+
+#my-navigation a{
+
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#my-navigation.navbar-toggle.icon-bar{
+
+    background-color: #fff;
+    border-color: #fff;
+}
+
+#my-navigation a span{
+
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.banner{
+
+  max-width: 1200px;
+    height: 450px;
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    font-size: 2rem;
+   
+   
+}
+
+.shop{
+
+    width: 150px;
+    height: 40px;
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  color: coral;
+  background-color: transparent;
+  border: 1px solid coral;
+  border-radius: 7px;
+  font-weight: 200;
+
+    
+}
+
+span p{
+
+    font-family: 'cursive';
+    font-weight: 900;
+    color: #CEA53F;
+    font-size: 3rem;
+}
+
+.banner h1{
+
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width:770px){
+
+    .banner h1{
+
+       font-size: 4rem;
+    }
+
+    .banner p{
+
+        text-align: justify;
+    }
+
+    .banner{
+
+       max-width: 1200px;
+        position: relative;
+        top: 40px;
+       
+        
+    }
+
+    .big-wrapper{
+
+     
+        height: 820px;
+        margin: 0;
+        padding: 0;
+
+    }
+}
+
+.center{
+
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    
+}
+
+.gold{
+
+
+    height: 300px;
+    background-color: #EEEEEE;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.gold img{
+
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    
+   
+}
+
+.girl{
+
+    height: 300px;
+}
+
+
+.girl img{
+
+    width: 100%;
+    height: 300px;
+}
+
+.product{
+
+    width: 180px;
+    height: 40px;
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  color: white;
+  background-color: coral;
+  border: 0;
+  border-radius: 0;
+  font-weight: 200;
+}
+
+.below{
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.box1{
+
+    
+    background-color: #EEEEEE;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    height: 650px;
+}
+
+.box1 img{
+
+    width: 100%;
+    height: 300px;
+}
+
+.box-1{
+
+    width: 100%;
+   
+    background-color: #160E0B;
+}
+
+.box-1 h3{
+
+    color: #fff;
+}
+
+.social{
+
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.social i{
+
+    cursor: pointer;
+    border: 2px solid #fff;
+    padding: 1rem;
+    border-radius: 1.25rem;
+}
+
+
+
+#blue:hover{
+
+    color: rgb(34, 77, 133);
+    border: 1px solid rgb(34, 77, 133);
+
+
+}
+
+#aqua:hover{
+
+    color: aqua;
+    border: 1px solid aqua;
+
+
+}
+
+#pink:hover{
+
+    color: rgb(193, 21, 190);
+    border: 1px solid rgb(193, 21, 190) ;
+
+
+}
+
+#red:hover{
+
+    color: red;
+    border: 1px solid red;
+
+
+}
+
+#Red:hover{
+
+    color: red;
+    border: 1px solid red;
+
+
+}
+
+@media only screen and (max-width:770px){
+
+    .social i{
+       font-size: 2rem;
+    }
+}
+
+
+.gold p{
+    text-align: left;
+}
+
+span{
+
+    color: coral;
+}
+
